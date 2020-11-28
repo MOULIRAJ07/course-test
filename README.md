@@ -1,37 +1,159 @@
-## Welcome to GitHub Pages
+* {
+  box-sizing: border-box;
+}
 
-You can use the [editor on GitHub](https://github.com/MOULIRAJ07/course-test/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: white;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+h1 {
+  font-size: 175%;
+  text-align: center;
+}
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#box {
+  border: 2px solid black;
+  background-color: #99c1d6;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
 
-```markdown
-Syntax highlighted code block
+}
 
-# Header 1
-## Header 2
-### Header 3
+p#chicken {
+	background-color: #ff9999;
+    font-size: 125%;
+	float: right;
+	border: 1px solid black;
+	padding: 5px 40px 5px 40px;
+	position: top-right;
+	margin-top: 0px;
+	margin-right: 0px;
+	
+}
 
-- Bulleted
-- List
+p#beef {
+	background-color: #ff1a1a;
+    font-size: 125%;
+	float: right;
+	border: 1px solid black;
+	padding: 5px 50px 5px 50px;
+    position: top-right;
+	margin-top: 0px;
+	margin-right: 0px;
+	
+}
 
-1. Numbered
-2. List
+p#sushi {
+	background-color: #ffcc66;
+    font-size: 125%;
+	float: right;
+	border: 1px solid black;
+	padding: 5px 50px 5px 50px;
+    position: top-right;
+	margin-top: 0px;
+	margin-right: 0px;
+	
+}
 
-**Bold** and _Italic_ and `Code` text
+p {
+  font-size: 100%;
+  padding: 5px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MOULIRAJ07/course-test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+		
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
